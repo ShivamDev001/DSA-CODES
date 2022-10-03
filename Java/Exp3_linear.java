@@ -1,7 +1,6 @@
 // Given an array of integers, return the number of times that two 6's are next to each other in the array. 
 // Also count instances where the second element is 7 ( LINEAR SEARCH )
 // Shivam
-// 21CSU090
 
 import java.util.*;
 public class Exp3_linear {
