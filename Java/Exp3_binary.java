@@ -1,6 +1,6 @@
 // Given an array of integers, return the number of times that two 6's are next to each other in the array. 
 // Also count instances where the second element is 7 ( BINARY SEARCH )
-// Shivam
+// Shivam Goyal
 // 21CSU090
 
 import java.util.*;
