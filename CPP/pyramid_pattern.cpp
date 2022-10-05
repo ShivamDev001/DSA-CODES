@@ -1,17 +1,23 @@
-#include<iostream>
+// C++ program to print number patterns using for loop
+#include <iostream>
 using namespace std;
 
-int main(){
-    int rows;
-    cin >> rows;
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j <= i; j++)
-        {
-            cout << "* ";
-        }
-        cout << endl;
-    }
-    
-    return 0;
+int main()
+{
+	int rows, columns, number = 1, n = 5;
+
+	
+	for (rows = 0; rows <= n; rows++) {
+
+		for (columns = 0; columns < rows; columns++) {
+		
+			cout << number << " ";
+		
+		
+			number++;
+		}
+	
+		cout << "\n";
+	}
+	return 0;
 }
